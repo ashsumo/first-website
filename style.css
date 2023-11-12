@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  padding-top: 10px;
+}
+audio {
+  position: absolute;
+  top: 10px;
+  padding-top: 100px;
+  padding-right: center;
+}
+.controls {
+  position: absolute;
+}
+
+
+
+
+.tc-container {
+  width: 500px;
+  height: 500px;
+  margin-top: 40px;
+  position: relative;
+}
+.tc-container img {
+  width: 100%;
+  height: 100%;
+
+}
+.top-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  opacity: 0;
+
+}
+.top-img:hover {
+  opacity: 1;
+
+}
