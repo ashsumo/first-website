@@ -41,17 +41,20 @@ h2 {
 }
 
 h1 {
+  margin: 0 auto;
   text-transform: uppercase;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
   font-weight: bold;
   padding-right: 20px;
   padding-left: 20px;
-  margin-left: 20px;
+
 padding-top: 20px;
   font-family: helvetica, sans-serif;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
+  horizontal-align: middle;
 }
 h1 a {
   text-decoration: none;
